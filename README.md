@@ -1,5 +1,16 @@
 # Makaira Storefront
 
+# Team 1 Topic
+
+Our topic is **100% Google Pagespeed ohne Kompromisse!**. Our goal is to create an e-commerce store that is trimmed on passing the [Google Pagespeed Lighthouse Test](https://pagespeed.web.dev/) with 100% Mobile!
+
+Some ressources we are using:
+
+* https://developers.google.com/speed
+* https://web.dev/measure/
+* https://web.dev/lighthouse-performance/
+
+
 ## Getting Started
 
 ### Prerequisites
