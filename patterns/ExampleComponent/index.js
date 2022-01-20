@@ -33,7 +33,11 @@ class ExampleComponent extends Component {
   handleClick = () => {
     console.log(this)
 
-    this.setState({ counter: 1 })
+    this.setState((prevState) => {
+      return {
+        counter: prevState.counter + 1,
+      }
+    })
   }
 
   render() {

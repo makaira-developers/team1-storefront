@@ -39,3 +39,4 @@ export { default as ContactForm } from './core/ContactForm'
 
 /* Add project specific patterns here */
 export { default as ExampleComponent } from './ExampleComponent'
+export { default as ExampleComponentFunctional } from './ExampleComponentFunctional'

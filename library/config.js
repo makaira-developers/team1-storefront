@@ -44,6 +44,9 @@ import ErrorPage from '../patterns/core/ErrorPage'
 import ExampleComponent, {
   exampleComponentVariants,
 } from '../patterns/ExampleComponent'
+import ExampleComponentFunctional, {
+  exampleComponentFunctionalVariants,
+} from '../patterns/ExampleComponentFunctional'
 /* CLI MARKER - PATTER IMPORT - DO NOT REMOVE */
 
 export default [
@@ -172,6 +175,12 @@ export default [
     name: 'Example Component',
     component: ExampleComponent,
     variants: exampleComponentVariants,
+  },
+  {
+    type: 'placeable',
+    name: 'Example Component Functional',
+    component: ExampleComponentFunctional,
+    variants: exampleComponentFunctionalVariants,
   },
   /* CLI MARKER - PATTERN CONFIG - DO NOT REMOVE */
   {
