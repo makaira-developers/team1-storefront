@@ -41,6 +41,9 @@ import SmartBundle from './examplePages/SmartBundle'
 import ErrorPage from '../patterns/core/ErrorPage'
 
 /* Add project specific imports here */
+import ExampleComponent, {
+  exampleComponentVariants,
+} from '../patterns/ExampleComponent'
 /* CLI MARKER - PATTER IMPORT - DO NOT REMOVE */
 
 export default [
@@ -163,6 +166,12 @@ export default [
     name: 'Contact Form',
     component: ContactForm,
     variants: contactFormVariants,
+  },
+  {
+    type: 'placeable',
+    name: 'Example Component',
+    component: ExampleComponent,
+    variants: exampleComponentVariants,
   },
   /* CLI MARKER - PATTERN CONFIG - DO NOT REMOVE */
   {
