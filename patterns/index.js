@@ -39,4 +39,4 @@ export { default as ContactForm } from './core/ContactForm'
 
 /* Add project specific patterns here */
 export { default as HenrysPerformanceComponent } from './HenrysPerformanceComponent'
-export { default as HenrysSEOTeaserGridModul } from './HenrysSEOTeaserGridModul'
+export { default as HenrysUndRonsSEOTeaserGridModul } from './HenrysUndRonsSEOTeaserGridModul'

@@ -2,14 +2,14 @@ import { Component } from 'react'
 import { Heading } from '..'
 import Image from '../core/TeaserHero/Image'
 
-class HenrysSEOTeaserGridModul extends Component {
+class HenrysUndRonsSEOTeaserGridModul extends Component {
   render() {
     const { image = {}, isLazyLoad = true } = this.props
 
     return (
       <section className="henrys-seoteaser-grid-modul">
         {' '}
-        <Heading element="H2">HenrysSEOTeaserGridModul</Heading>
+        <Heading element="H2">HenrysUndRonsSEOTeaserGridModul</Heading>
         {/* Warum ... an dieser Stelle, was macht das? */}
         <Image {...image} isLazyLoad={isLazyLoad} />
         <img src="https://picsum.photos/seed/picsum/600/400"></img>
@@ -18,5 +18,5 @@ class HenrysSEOTeaserGridModul extends Component {
   }
 }
 
-export default HenrysSEOTeaserGridModul
-export { default as henrysSEOTeaserGridModulVariants } from './variants.js'
+export default HenrysUndRonsSEOTeaserGridModul
+export { default as henrysUndRonsSEOTeaserGridModulVariants } from './variants.js'

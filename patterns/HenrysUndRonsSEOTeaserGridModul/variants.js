@@ -3,7 +3,7 @@ export default [
     name: 'Default',
     props: {
       image: {
-        src: 'assets/images/teaserHero/example.jpg',
+        src: 'https://picsum.photos/seed/picsum/600/400',
         alt: 'Alt Text',
       },
     },
