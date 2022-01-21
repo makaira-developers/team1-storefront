@@ -44,6 +44,9 @@ import ErrorPage from '../patterns/core/ErrorPage'
 import HenrysPerformanceComponent, {
   henrysPerformanceComponentVariants,
 } from '../patterns/HenrysPerformanceComponent'
+import HenrysSEOTeaserGridModul, {
+  henrysSEOTeaserGridModulVariants,
+} from '../patterns/HenrysSEOTeaserGridModul'
 /* CLI MARKER - PATTER IMPORT - DO NOT REMOVE */
 
 export default [
@@ -172,6 +175,12 @@ export default [
     name: 'Henrys Performance Component',
     component: HenrysPerformanceComponent,
     variants: henrysPerformanceComponentVariants,
+  },
+  {
+    type: 'placeable',
+    name: 'Henrys Seo Teaser Grid Modul',
+    component: HenrysSEOTeaserGridModul,
+    variants: henrysSEOTeaserGridModulVariants,
   },
   /* CLI MARKER - PATTERN CONFIG - DO NOT REMOVE */
   {
