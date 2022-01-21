@@ -1,6 +1,6 @@
 import { Component } from 'react'
 import { Heading } from '..'
-import Image from '../core/TeaserHero/Image'
+import Image from './Image'
 
 class HenrysUndRonsSEOTeaserGridModul extends Component {
   render() {
