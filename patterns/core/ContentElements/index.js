@@ -13,6 +13,7 @@ import {
   DiscoveryImage,
   ContactForm,
   NewsGrid,
+  NewsGridDynamic,
 } from '../..'
 
 export default function ContentElements(props) {
@@ -35,6 +36,7 @@ export default function ContentElements(props) {
     'discovery-image': DiscoveryImage,
     'contact-form': ContactForm,
     'news-grid': NewsGrid,
+    'news-grid-dynamic': NewsGridDynamic,
   }
 
   return (

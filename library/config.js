@@ -42,6 +42,9 @@ import ErrorPage from '../patterns/core/ErrorPage'
 
 /* Add project specific imports here */
 import NewsGrid, { newsGridVariants } from '../patterns/NewsGrid'
+import NewsGridDynamic, {
+  newsGridDynamicVariants,
+} from '../patterns/NewsGridDynamic'
 /* CLI MARKER - PATTER IMPORT - DO NOT REMOVE */
 
 export default [
@@ -170,6 +173,12 @@ export default [
     name: 'News Grid',
     component: NewsGrid,
     variants: newsGridVariants,
+  },
+  {
+    type: 'placeable',
+    name: 'News Grid Dynamic',
+    component: NewsGridDynamic,
+    variants: newsGridDynamicVariants,
   },
   /* CLI MARKER - PATTERN CONFIG - DO NOT REMOVE */
   {
