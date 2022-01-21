@@ -12,6 +12,7 @@ import {
   TeaserVideo,
   DiscoveryImage,
   ContactForm,
+  NewsGrid,
 } from '../..'
 
 export default function ContentElements(props) {
@@ -33,6 +34,7 @@ export default function ContentElements(props) {
     'video-teaser': TeaserVideo,
     'discovery-image': DiscoveryImage,
     'contact-form': ContactForm,
+    'news-grid': NewsGrid,
   }
 
   return (
