@@ -19,10 +19,49 @@ function News(props) {
   const { featuredImage, excerpt, link, title } = props
   const { getImageLink } = useConfiguration()
 
+  const breakpointSmall = '550px' // breakpoint-small
+  const breakpointMedium = '850px' // breakpoint-medium
+
+  const imgPropsLarge = {
+    source: featuredImage,
+    width: 800,
+    quality: 90,
+  }
+  const imgLinkLarge = getImageLink(imgPropsLarge)
+  const imgPropsLargeRetina = getImageLink({ dpr: 2, ...imgPropsLarge })
+
+  const imgPropsMedium = {
+    source: featuredImage,
+    width: 600,
+    quality: 90,
+  }
+  const imgLinkMedium = getImageLink(imgPropsMedium)
+  const imgLinkMediumRetina = getImageLink({ dpr: 2, ...imgPropsMedium })
+
+  const imgPropsSmall = {
+    source: featuredImage,
+    width: 400,
+    quality: 90,
+  }
+
+  const imgLinkSmall = getImageLink(imgPropsSmall)
+  const imgLinkSmallRetina = getImageLink({ dpr: 2, ...imgPropsSmall })
+
   return (
     <section className="news-item-container">
       <div className="news-item">
-        <img src={getImageLink({ source: featuredImage })} alt={title} />
+        <picture>
+          <source
+            media={`(min-width: ${breakpointMedium})`}
+            srcSet={`${imgLinkLarge} 1x, ${imgPropsLargeRetina} 2x`}
+          />
+          <source
+            media={`(min-width: ${breakpointSmall})`}
+            srcSet={`${imgLinkMedium} 1x, ${imgLinkMediumRetina} 2x`}
+          />
+          <source srcSet={`${imgLinkSmall} 1x, ${imgLinkSmallRetina} 2x`} />
+          <img src={imgLinkLarge} alt={title} />
+        </picture>
         <div className="news-text">
           <h1>{title}</h1>
           <p>{excerpt}</p>
