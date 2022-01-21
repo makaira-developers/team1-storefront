@@ -12,6 +12,7 @@ import {
   TeaserVideo,
   DiscoveryImage,
   ContactForm,
+  MinimalImageText
 } from '../..'
 
 export default function ContentElements(props) {
@@ -23,7 +24,7 @@ export default function ContentElements(props) {
   const components = {
     'product-placement': ProductPlacement,
     'stream-placement': StreamPlacement,
-    promotion: Promotion,
+    'promotion': Promotion,
     'teaser-hero': TeaserHero,
     'teaser-grid': TeaserGrid,
     'teaser-single': TeaserSingle,
@@ -33,6 +34,7 @@ export default function ContentElements(props) {
     'video-teaser': TeaserVideo,
     'discovery-image': DiscoveryImage,
     'contact-form': ContactForm,
+    'luca-component': MinimalImageText
   }
 
   return (
