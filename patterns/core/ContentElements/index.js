@@ -13,6 +13,7 @@ import {
   DiscoveryImage,
   ContactForm,
   HenrysUndRonsSEOTeaserGridModul,
+  BannerCarousel,
   NewsGrid,
   NewsGridDynamic,
 } from '../..'
@@ -38,6 +39,7 @@ export default function ContentElements(props) {
     'contact-form': ContactForm,
     'news-grid': NewsGrid,
     'news-grid-dynamic': NewsGridDynamic,
+    'banner-carousel': BannerCarousel,
     'henrys-und-rons-SEO-teaser-grid-modul': HenrysUndRonsSEOTeaserGridModul,
   }
 
