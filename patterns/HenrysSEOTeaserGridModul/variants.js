@@ -1,6 +1,11 @@
 export default [
   {
     name: 'Default',
-    props: {},
+    props: {
+      image: {
+        src: 'assets/images/teaserHero/example.jpg',
+        alt: 'Alt Text',
+      },
+    },
   },
 ]
