@@ -13,6 +13,8 @@ import {
   DiscoveryImage,
   ContactForm,
   HenrysUndRonsSEOTeaserGridModul,
+  NewsGrid,
+  NewsGridDynamic,
 } from '../..'
 
 export default function ContentElements(props) {
@@ -34,6 +36,8 @@ export default function ContentElements(props) {
     'video-teaser': TeaserVideo,
     'discovery-image': DiscoveryImage,
     'contact-form': ContactForm,
+    'news-grid': NewsGrid,
+    'news-grid-dynamic': NewsGridDynamic,
     'henrys-und-rons-SEO-teaser-grid-modul': HenrysUndRonsSEOTeaserGridModul,
   }
 
