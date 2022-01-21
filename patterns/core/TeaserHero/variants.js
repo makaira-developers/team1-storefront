@@ -8,8 +8,7 @@ const headingProps = {
 const overlayProps = {
   isVisible: true,
   heading: 'Ein besonderes Erlebnis',
-  text:
-    'Foraging used to be all we knew; we were self-reliant, adaptive creatures in a dynamic natural world. Those instincts have gone to sleep in bland days of convenience and blasé consumption.',
+  text: 'Foraging used to be all we knew; we were self-reliant, adaptive creatures in a dynamic natural world. Those instincts have gone to sleep in bland days of convenience and blasé consumption.',
   button: {
     isVisible: true,
     text: 'Discover this',
@@ -17,6 +16,35 @@ const overlayProps = {
 }
 
 export default [
+  {
+    name: 'Live Data Example',
+    props: {
+      link: '',
+      image: {
+        src: {
+          fileName: 'team1/mike-newbry-Xbls2Q81IdE-unsplash_n4oprr.jpg',
+          cloudName: 'makaira-hackathon',
+          resourceType: 'image',
+        },
+        alt: '',
+      },
+      heading: {
+        isVisible: true,
+        text: 'Main Title',
+        pre: '',
+        sub: 'Subtitle',
+      },
+      overlay: {
+        isVisible: false,
+        heading: '',
+        text: '',
+        button: {
+          isVisible: false,
+          text: '',
+        },
+      },
+    },
+  },
   {
     name: 'Fully featured',
     props: {
