@@ -10,7 +10,6 @@ class HenrysUndRonsSEOTeaserGridModul extends Component {
       <section className="henrys-seoteaser-grid-modul">
         {' '}
         <Heading element="H2">HenrysUndRonsSEOTeaserGridModul</Heading>
-        {/* Warum ... an dieser Stelle, was macht das? */}
         <Image {...image} isLazyLoad={isLazyLoad} />
         <img src="https://picsum.photos/seed/picsum/600/400"></img>
       </section>
