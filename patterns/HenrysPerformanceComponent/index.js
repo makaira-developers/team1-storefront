@@ -1,4 +1,5 @@
 import { Component } from 'react'
+import { Button, Heading } from '..'
 
 class HenrysPerformanceComponent extends Component {
   state = { counter: 0 }
@@ -36,9 +37,9 @@ class HenrysPerformanceComponent extends Component {
 
     return (
       <section className="henrys-component">
-        <h1>Henrys Performance Component</h1>
+        <Heading>Henrys Performance Component</Heading>
 
-        <button
+        <Button
           type="button"
           // onClick={function () {
           //   console.log('click')
@@ -53,7 +54,7 @@ class HenrysPerformanceComponent extends Component {
           // onClick={this.handleClick()} ← DO NOT DO IT LIKE THIS!
         >
           Click Me
-        </button>
+        </Button>
       </section>
     )
   }
